@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    </head>
+<body>
+    <h1> SURVEY</h1>
+    <form action="survey" method="post">
+     <label> what are your favourite programming language</label>
+     <input type="checkbox" id="python" name="language" value="python">
+     <label for="python">Python</label><br>
+     <input type="checkbox" id="javascript" name="language" value="javascript">
+     <label for="javascript">Javascript</label><br>
+     <input type="checkbox" id="java" name="language" value="java">
+     <label for="java">Java</label><br>
+     <input type="checkbox" id="c++" name="language" value="c++">
+     <label for="c++">C++</label><br>
+
+
+     <label> How many years experience you have</label><br>
+     <select name="experience">
+        <option value="less-than-1">Less than 1</option>
+        <option value="1-3">1-3 years</option>
+        <option value="3-5">3-5 years</option>
+        <option value="more than- 5">More than 5 years</option>
+
+     </select><br><br>
+     <button type="submit">submit survey</button>
+
+    </form>
+
+     
+</body>
+</html>
